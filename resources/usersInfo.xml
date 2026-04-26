@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+    <user isAdmin="false" password="pie" profilePicture="profile_pictures\banana.jpg" username="banana">
+        <collections>
+            <collection name="examples">
+                <gameId value="316554"/>
+            </collection>
+            <collection name="bananaCollections">
+                <gameId value="321608"/>
+                <gameId value="374173"/>
+            </collection>
+        </collections>
+        <reviews/>
+    </user>
+    <user isAdmin="false" password="123" profilePicture="" username="apple">
+        <collections/>
+        <reviews/>
+    </user>
+    <user isAdmin="true" password="apple" profilePicture="profile_pictures\bread.jpg" username="bread">
+        <collections/>
+        <reviews/>
+    </user>
+    <user isAdmin="true" password="apple" profilePicture="profile_pictures\pineapple.jpg" username="pineapple">
+        <collections>
+            <collection name="banana">
+                <gameId value="374173"/>
+            </collection>
+        </collections>
+        <reviews/>
+    </user>
+    <user isAdmin="false" password="apple" profilePicture="" username="nummy">
+        <collections/>
+        <reviews/>
+    </user>
+    <user isAdmin="false" password="123" profilePicture="" username="testing">
+        <collections/>
+        <reviews/>
+    </user>
+    <user isAdmin="true" password="Admin" profilePicture="" username="BethAllen">
+        <collections/>
+        <reviews/>
+    </user>
+</users>

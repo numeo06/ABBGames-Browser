@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+
+    <!-- model.Admin account with no collections or reviews -->
+    <user username="admin" password="admin123" isAdmin="true">
+        <collections/>
+        <reviews/>
+    </user>
+
+    <!-- Regular user with multiple collections and reviews -->
+    <user username="john123" password="pass1" isAdmin="false">
+        <collections>
+            <collection name="Favorites">
+                <gameId value="g001"/>
+                <gameId value="g002"/>
+            </collection>
+            <collection name="Wishlist">
+                <gameId value="g003"/>
+            </collection>
+        </collections>
+        <reviews>
+            <review gameId="g001" rating="5" text="Amazing strategy game, highly recommend!"/>
+            <review gameId="g002" rating="3" text="Decent game but takes too long to set up."/>
+        </reviews>
+    </user>
+
+    <!-- Regular user with one collection and one review -->
+    <user username="jane456" password="pass2" isAdmin="false">
+        <collections>
+            <collection name="Party Games">
+                <gameId value="g002"/>
+                <gameId value="g004"/>
+            </collection>
+        </collections>
+        <reviews>
+            <review gameId="g004" rating="4" text="Great for groups, very fun!"/>
+        </reviews>
+    </user>
+
+    <!-- Brand new user with no collections or reviews yet -->
+    <user username="newuser" password="pass3" isAdmin="false">
+        <collections/>
+        <reviews/>
+    </user>
+
+</users>
