@@ -33,4 +33,4 @@ Java Swing application with searchable board game database featuring multi-filte
 The application follows a 3-tier MVC architecture with design patterns for scalability:
 - **Data Layer**: HashMap-indexed storage with DOM-based XML persistence
 - **Model Layer**: Game, User, UserCollection, Admin, Review classes
-- **View/Control Layer**: Java Swing UI with panel-based navigation (Facade pattern)
+- **View/Control Layer**: Java Swing UI with panel-based navigation
